@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página con Bootstrap 5 y SASS</title>
     <link rel="stylesheet" href="/styles/custom.css" />
+    <style>
+      .custom-img {
+        width: 626px; /* Ancho fijo */
+        height: 391px; /* Altura fija */
+        border-radius: 16px; /* Bordes redondeados */
+        object-fit: cover; /* Ajusta la imagen para rellenar el contenedor */
+      }
+      .image-container {
+        padding: 10px; /* Espaciado entre imágenes */
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -62,9 +73,24 @@
           </p>
         </div>
         <div>
-          <button type="button" class="btn btn-primary">Primary</button>
+          <button type="button" class="btn btn-primary">Join Now</button>
         </div>
       </article>
+      <!-- Segunda seccion con imagenes -->
+       <div class="container">
+        <article class="d-flex justify-content-center align-items-center mt-5">
+            <div class="image-container">
+                <img src="https://s3-alpha-sig.figma.com/img/520f/357c/817216ca9b198a04ed0361302259b8fd?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hpUiYyGDm2F2K5JCvXx-jf0A3RjvHlWXkxN-0pmGTVzyXpPxWtmZkPQ7EvgoTqzILoLvu6nUlEq4eGyyqtzEfagLR7a-ApzKMB4wY5M8anuDP2xj2KNOBGnmUVzxvFZEOtNsFeQPhVh~jQ1v~ghm4s3sOuNkTCsuNQBAFYmDJsZzQFcvjF2PcD9-G-woV5T7pdO9ztvDP5uRfg4m3XWE24P-1l55rkV61qStjBhlNlF8iq46TpYdxt5Yaq8yEU8TBn2bWHKHIm266i7Azaa29PMvX69BW~dFiOKgWNFoJhuX9hMqAXtywb6Sl3abgTsTkDA4glzZBRP9KLOZ4YdEnw__" 
+                     alt="Image 1" 
+                     class="custom-img">
+            </div>
+            <div class="image-container">
+                <img src="https://s3-alpha-sig.figma.com/img/812e/1bda/19dfb6832f57ab0e52346f7b84f9692b?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dyfOG48SidvBdgvUw0V8iQgVZmotWffwXSwiL6hM9paET6aFf~JqLTnNUh7Zb0svkSvEAaRhTgm~LBehWc00dXZU3auQKUNNGUjPvIDo9QWvmRVKgbZ4galWiKHnJs8LmLDL3xlEpFPtmus8LSOG4fITMsILbAP5zQgkQW82CyK8pWYIwcboankR0Qtoz-ImkRgNsh1Euav45KndZQsWzooN~ESBzYE55VdPPjM6da6SZ1PjcxhULh3ip3KpRo0ZnQZH~~0Eq4dpXIEhyQFN0RbFy5p1JKTgqdDZkvPkoyCGKu4Js5K42w1raSJH88ZGr1KU9PjsNJeJ3w3rgIRofQ__" 
+                     alt="Image 2" 
+                     class="custom-img">
+            </div>
+        </article>
+    </div>
     </section>
 
     <script

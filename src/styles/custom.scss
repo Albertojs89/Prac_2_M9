@@ -7,3 +7,12 @@ body {
     color: $primary;
 }
 
+ .custom-img {
+            width: 626px; /* Ancho especificado */
+            height: 391px; /* Altura especificada */
+            border-radius: 16px; /* Bordes redondeados */
+            
+        }
+        .image-container {
+            padding: 10px; 
+        }
