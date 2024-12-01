@@ -3,16 +3,95 @@ $primary: #3498db;
 
 body {
     font-family: Arial, sans-serif;
-    font-size: 20px;
-    color: $primary;
+    font-size: 16px;
+    color: #2b2b2b;
+    font-family: "Poppins", sans-serif;
+}
+h2{
+    width: 589px;
+    height: 46px;
+    font-weight: 600;
+    font-size: 50.52px;
+    line-height: 62px;
+}
+
+section{
+    padding: 60px;
 }
 
  .custom-img {
-            width: 626px; /* Ancho especificado */
-            height: 391px; /* Altura especificada */
-            border-radius: 16px; /* Bordes redondeados */
+            width: 626px; 
+            height: 391px; 
+            border-radius: 16px; 
             
         }
         .image-container {
             padding: 10px; 
         }
+
+h2{
+   color: #2b2b2b;
+   font-family: "Poppins", sans-serif;
+    
+}
+
+.title-boton{
+    text-align: center;
+
+    h2{
+        width: 1300px;
+        height: 82px;
+        font-weight: 600;
+        font-size: 65.34px;
+    }
+   
+}
+
+ .btnJoin{
+        border: 1px solid #2b2b2b;
+        background-color: #285e67;
+        border-radius: 67px;
+        width: 251px;
+        height: 56px;
+        padding: 16px;
+        gap: 16px;
+        
+    }
+
+
+.iconHoja{
+    width: 58px;
+    height: 57px;
+    border-radius: 10px;
+    
+}
+
+.section3 {
+    background-color: #f4f4f4;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+    .imgSection2{
+        width: 651px;
+        height: auto;
+        border-radius: 16px;
+        display: flex; /* Centra el contenido */
+        justify-content: center;
+        align-items: center;
+
+     
+
+    }
+   
+}
+
+.section4 {
+
+    .custom-img2{
+        width: 623.5px;
+        height: 576.92px;
+        border-radius: 16px;
+    }
+}

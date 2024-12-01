@@ -5,24 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página con Bootstrap 5 y SASS</title>
     <link rel="stylesheet" href="/styles/custom.css" />
-    <style>
-      .custom-img {
-        width: 626px; /* Ancho fijo */
-        height: 391px; /* Altura fija */
-        border-radius: 16px; /* Bordes redondeados */
-        object-fit: cover; /* Ajusta la imagen para rellenar el contenedor */
-      }
-      .image-container {
-        padding: 10px; /* Espaciado entre imágenes */
-      }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Karla+Tamil+Inclined:wght@400;700&family=Noto+Sans+Elbasan&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-          <div>
-            <img src="" alt="Logo" />
+          <div class="d-flex align-items-center">
+            <img src="public/Ellipse 1.png" alt="Logo" />
+            <p class="ms-3 mb-0">Logo</p>
           </div>
           <button
             class="navbar-toggler"
@@ -61,36 +57,112 @@
     </header>
 
     <!-- Primera sección con imagenes -->
-    <section class="container-xxl">
+    <section class="container-xxl section2">
       <article>
-        <div>
+        <div class="title-boton">
           <h2>The dawn of a new era in health is here</h2>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis
-            neque ut reiciendis placeat dolorem aspernatur quam laborum, aliquid
-            nemo. Dolore, magnam mollitia ab voluptatibus pariatur ipsa expedita
-            temporibus perspiciatis nesciunt.
+            neque ut reiciendis placeat consectetur adipisicing elit.
           </p>
         </div>
-        <div>
-          <button type="button" class="btn btn-primary">Join Now</button>
+        <div class="d-flex justify-content-center align-items-center">
+          <button type="button" class="btn btn-primary btnJoin">
+            Join Now
+          </button>
         </div>
       </article>
       <!-- Segunda seccion con imagenes -->
-       <div class="container">
+      <div class="container">
         <article class="d-flex justify-content-center align-items-center mt-5">
-            <div class="image-container">
-                <img src="https://s3-alpha-sig.figma.com/img/520f/357c/817216ca9b198a04ed0361302259b8fd?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hpUiYyGDm2F2K5JCvXx-jf0A3RjvHlWXkxN-0pmGTVzyXpPxWtmZkPQ7EvgoTqzILoLvu6nUlEq4eGyyqtzEfagLR7a-ApzKMB4wY5M8anuDP2xj2KNOBGnmUVzxvFZEOtNsFeQPhVh~jQ1v~ghm4s3sOuNkTCsuNQBAFYmDJsZzQFcvjF2PcD9-G-woV5T7pdO9ztvDP5uRfg4m3XWE24P-1l55rkV61qStjBhlNlF8iq46TpYdxt5Yaq8yEU8TBn2bWHKHIm266i7Azaa29PMvX69BW~dFiOKgWNFoJhuX9hMqAXtywb6Sl3abgTsTkDA4glzZBRP9KLOZ4YdEnw__" 
-                     alt="Image 1" 
-                     class="custom-img">
-            </div>
-            <div class="image-container">
-                <img src="https://s3-alpha-sig.figma.com/img/812e/1bda/19dfb6832f57ab0e52346f7b84f9692b?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dyfOG48SidvBdgvUw0V8iQgVZmotWffwXSwiL6hM9paET6aFf~JqLTnNUh7Zb0svkSvEAaRhTgm~LBehWc00dXZU3auQKUNNGUjPvIDo9QWvmRVKgbZ4galWiKHnJs8LmLDL3xlEpFPtmus8LSOG4fITMsILbAP5zQgkQW82CyK8pWYIwcboankR0Qtoz-ImkRgNsh1Euav45KndZQsWzooN~ESBzYE55VdPPjM6da6SZ1PjcxhULh3ip3KpRo0ZnQZH~~0Eq4dpXIEhyQFN0RbFy5p1JKTgqdDZkvPkoyCGKu4Js5K42w1raSJH88ZGr1KU9PjsNJeJ3w3rgIRofQ__" 
-                     alt="Image 2" 
-                     class="custom-img">
-            </div>
+          <div class="image-container">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/520f/357c/817216ca9b198a04ed0361302259b8fd?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hpUiYyGDm2F2K5JCvXx-jf0A3RjvHlWXkxN-0pmGTVzyXpPxWtmZkPQ7EvgoTqzILoLvu6nUlEq4eGyyqtzEfagLR7a-ApzKMB4wY5M8anuDP2xj2KNOBGnmUVzxvFZEOtNsFeQPhVh~jQ1v~ghm4s3sOuNkTCsuNQBAFYmDJsZzQFcvjF2PcD9-G-woV5T7pdO9ztvDP5uRfg4m3XWE24P-1l55rkV61qStjBhlNlF8iq46TpYdxt5Yaq8yEU8TBn2bWHKHIm266i7Azaa29PMvX69BW~dFiOKgWNFoJhuX9hMqAXtywb6Sl3abgTsTkDA4glzZBRP9KLOZ4YdEnw__"
+              alt="Image 1"
+              class="custom-img"
+            />
+          </div>
+          <div class="image-container">
+            <img
+              src="https://s3-alpha-sig.figma.com/img/812e/1bda/19dfb6832f57ab0e52346f7b84f9692b?Expires=1733702400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dyfOG48SidvBdgvUw0V8iQgVZmotWffwXSwiL6hM9paET6aFf~JqLTnNUh7Zb0svkSvEAaRhTgm~LBehWc00dXZU3auQKUNNGUjPvIDo9QWvmRVKgbZ4galWiKHnJs8LmLDL3xlEpFPtmus8LSOG4fITMsILbAP5zQgkQW82CyK8pWYIwcboankR0Qtoz-ImkRgNsh1Euav45KndZQsWzooN~ESBzYE55VdPPjM6da6SZ1PjcxhULh3ip3KpRo0ZnQZH~~0Eq4dpXIEhyQFN0RbFy5p1JKTgqdDZkvPkoyCGKu4Js5K42w1raSJH88ZGr1KU9PjsNJeJ3w3rgIRofQ__"
+              alt="Image 2"
+              class="custom-img"
+            />
+          </div>
         </article>
-    </div>
+      </div>
+    </section>
+
+    <section class="container-xxl d-flex align-items-center section3">
+      <article class="ms-5" style="width: 589px; height: 342.54px">
+        <header>
+          <h2 class="mb-5">Wellbeing is welldoing</h2>
+        </header>
+        <div class="d-flex gap-4 mt-4">
+          <div>
+            <img src="public/hojaIcon.png" alt="imgHoja" class="iconHoja" />
+            <p class="mt-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+          <div>
+            <img src="public/hojaIcon.png" alt="imgHoja" class="iconHoja" />
+            <p class="mt-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+      </article>
+      <article class="imgSection2">
+        <div class="ilus">
+          <img src="public/Illustration.png" alt="Image 3" />
+        </div>
+      </article>
+    </section>
+
+    <section class="container-xxl d-flex align-items-center section4">
+      <div>
+        <img
+          class="custom-img2"
+          src="public/zoe-schaeffer-tbiV-yc903g-unsplash 1 (1).png"
+          alt=""
+        />
+      </div>
+      <div>
+        <div class="ms-4">
+          <h2 class="mb-4 ms-4">Fresh organic produce</h2>
+          <p class="ms-4">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
+            neque, voluptates sapiente ea placeat odio optio eveniet qui error.
+            neque, voluptates sapiente ea placeat odio optio eveniet qui error.
+          </p>
+        </div>
+        <article class="ms-5">
+          <div class="d-flex align-items-center justify-content-center py-4">
+          <img class="ms-3" src="public/Icon.png" alt="" />
+          <p class="ms-4">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
+            neque, voluptates sapiente ea placeat odio optio eveniet qui error.
+          </p>
+        </div>
+        <div class="d-flex align-items-center justify-content-center py-4">
+          <img class="ms-3" src="public/Icon.png" alt="" />
+          <p class="ms-4">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
+            neque, voluptates sapiente ea placeat odio optio eveniet qui error.
+          </p>
+        </div>
+        <div class="d-flex align-items-center justify-content-center py-4">
+          <img class="ms-3" src="public/Icon.png" alt="" />
+          <p class="ms-4">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
+            neque, voluptates sapiente ea placeat odio optio eveniet qui error.
+          </p>
+        </div>
+      </div>
+        </article>
     </section>
 
     <script
