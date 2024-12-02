@@ -2,6 +2,7 @@
 $primary: #3498db;
 
 body {
+    
     font-family: Arial, sans-serif;
     font-size: 16px;
     color: #2b2b2b;
@@ -94,4 +95,29 @@ h2{
         height: 576.92px;
         border-radius: 16px;
     }
+}
+
+.section5{
+    width: 1300px;
+    height: 541px;
+    padding: 56px 110px 56px 114px;
+    gap: 237px;
+
+    .cabecera{
+        width: 543px;
+        gap: 16px;
+    }
+
+    .custom-img3{
+        width: 350px;
+        height: 347.5px;
+
+    }
+    .block-imagenes{
+        width: 543px;
+        height: 187.54px;
+        gap: 69px;
+        
+    }
+
 }
