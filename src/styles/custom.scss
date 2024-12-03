@@ -3,7 +3,7 @@ $primary: #3498db;
 
 body {
     width: 1440px;
-    height: 4038px;
+    height: 6038px;
     margin: auto;
     font-family: Arial, sans-serif;
     font-size: 16px;
@@ -183,6 +183,7 @@ h2{
 
 .section6{
      position: relative;
+     min-height: 800px;
     imagen-fondo{
         z-index: 0;
     }
@@ -269,8 +270,15 @@ z-index: 0: Asignamos un valor de 0 al z-index de la imagen de fondo. Esto asegu
 
 }
 
-
-
+.sectionFooter{
+    top: 3793px;
+    width: 1441px;
+    padding: 78px 139px 78px 139px;
+    gap: 728px;
+    border: solid 1px #285e67;
+    background-color: #285e67;
+    
+}
 
 
 }
