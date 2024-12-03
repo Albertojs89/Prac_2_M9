@@ -2,11 +2,16 @@
 $primary: #3498db;
 
 body {
-    
+    width: 1440px;
+    height: 4038px;
+    margin: auto;
     font-family: Arial, sans-serif;
     font-size: 16px;
     color: #2b2b2b;
     font-family: "Poppins", sans-serif;
+    margin-top: 50px;
+    
+    
 }
 h2{
     width: 589px;
@@ -14,6 +19,32 @@ h2{
     font-weight: 600;
     font-size: 50.52px;
     line-height: 62px;
+}
+
+header{
+    
+    p{
+        color: #285e67;
+        width: 52px;
+        height: 24px;
+        font-weight: 600;
+        font-size: 21.33px;
+        align-items: center;
+        
+    }
+    .logoIcon{
+        margin-left: 60px;
+    }
+
+    ul{
+        width: 48px;
+        height: 24px;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    #navbarNav{
+        margin-right: 310px;
+    }
 }
 
 section{
