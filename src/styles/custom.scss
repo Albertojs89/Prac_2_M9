@@ -21,6 +21,23 @@ h2{
     line-height: 62px;
 }
 
+
+.parte1{
+    color: white;
+    
+    .title-h3{
+
+        h3{
+            font-weight: 600;
+            font-size: 37.9px;
+            align-items: center;
+            color: white;
+        }
+        
+        
+    }
+}
+
 header{
     
     p{
@@ -67,16 +84,26 @@ h2{
     
 }
 
-.title-boton{
-    text-align: center;
+.section2{
+     margin-top: 100px;
+    
+    article{
+        text-align: center;
+        
+        
 
-    h2{
-        width: 1300px;
-        height: 82px;
-        font-weight: 600;
-        font-size: 65.34px;
+        .title-boton{
+            text-align: center;
+
+            h2{
+                width: 1300px;
+                height: 82px;
+                font-weight: 600;
+                font-size: 65.34px;
+            }
+    
+        }
     }
-   
 }
 
  .btnJoin{
@@ -154,15 +181,97 @@ h2{
 }
 
 
-section{
-
+.section6{
+     position: relative;
+    imagen-fondo{
+        z-index: 0;
+    }
     article{
+        text-align: center;
+        gap: 45px;
+        position: absolute; /* Posicionamos el article de forma absoluta */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        top:40%;
 
-        .fondo{
-            background-image: url('public/fondo.png');
-            background-size: cover;
-            background-repeat: no-repeat;
+    .title-boton{
+        text-align: center;
+
+        h2{
+            width: 1300px;
+            height: 82px;
+            font-weight: 600;
+            font-size: 65.34px;
+        }
+   
+}
+
+    .btnJoin2{
+        border: 1px solid white;
+        background-color: none;
+        border-radius: 67px;
+        width: 251px;
+        height: 56px;
+        padding: 16px;
+        gap: 16px;
+        font-weight: 400;
+        color: white;
+        font-size: 21.33px;
+        align-items: center;
+        text-align: center;
+        
+        
+    }
+
+    .cuatro-iconos{
+        display:flex ;
+        justify-content: space-around;
+        align-items: center;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+        width: 1165px;
+        height: 356px;
+        border: solid 1px #fce2d7;
+        border-radius: 16px;
+        background-color: #fce2d7;
+        gap: 17px;
+        right: 0%;
+        left: 50%;
+        top:160%;
+
+        img{
+            width: 82px;
+            height: 82px;
         }
     }
+}
+
+/*explicacion de como posicionar encima de la imagen
+
+
+position: relative: Indica que el elemento se posicionará en relación a su posición original en el flujo del documento. Esto nos permite ajustar su posición con las propiedades top, bottom, left y right.
+z-index: 1: Asignamos un valor de 1 al z-index del article. Esto significa que se mostrará por encima de cualquier elemento con un z-index menor.
+z-index: 0: Asignamos un valor de 0 al z-index de la imagen de fondo. Esto asegura que quede debajo del article.
+
+
+*/
+
+.parte2{
+    position: relative;
+    width: 1165px;
+    height: 356px;
+    z-index: 1;
+    top: 119px;
+    background-color: white;
+
+}
+
+
+
+
+
 }
 
