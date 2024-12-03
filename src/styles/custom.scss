@@ -2,259 +2,227 @@
 $primary: #3498db;
 
 body {
-    width: 1440px;
-    height: 5038px;
-    margin: auto;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    color: #2b2b2b;
-    font-family: "Poppins", sans-serif;
-    margin-top: 50px;
-    
-    
+  width: 1440px;
+  height: 5038px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #2b2b2b;
+  font-family: "Poppins", sans-serif;
+  margin-top: 50px;
 }
-h2{
-    width: 589px;
-    height: 46px;
+h2 {
+  width: 589px;
+  height: 46px;
+  font-weight: 600;
+  font-size: 50.52px;
+  line-height: 62px;
+}
+
+.parte1 {
+  color: white;
+
+  .title-h3 {
+    h3 {
+      font-weight: 600;
+      font-size: 37.9px;
+      align-items: center;
+      color: white;
+    }
+  }
+}
+
+header {
+  p {
+    color: #285e67;
+    width: 52px;
+    height: 24px;
     font-weight: 600;
-    font-size: 50.52px;
-    line-height: 62px;
+    font-size: 21.33px;
+    align-items: center;
+  }
+  .logoIcon {
+    margin-left: 60px;
+  }
+
+  ul {
+    width: 48px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  #navbarNav {
+    margin-right: 310px;
+  }
 }
 
-
-.parte1{
-    color: white;
-    
-    .title-h3{
-
-        h3{
-            font-weight: 600;
-            font-size: 37.9px;
-            align-items: center;
-            color: white;
-        }
-        
-        
-    }
+section {
+  padding: 60px;
 }
 
-header{
-    
-    p{
-        color: #285e67;
-        width: 52px;
-        height: 24px;
+.custom-img {
+  width: 626px;
+  height: 391px;
+  border-radius: 16px;
+}
+.image-container {
+  padding: 10px;
+}
+
+h2 {
+  color: #2b2b2b;
+  font-family: "Poppins", sans-serif;
+}
+
+.section2 {
+  margin-top: 100px;
+
+  article {
+    text-align: center;
+
+    .title-boton {
+      text-align: center;
+
+      h2 {
+        width: 1300px;
+        height: 82px;
         font-weight: 600;
-        font-size: 21.33px;
-        align-items: center;
-        
+        font-size: 65.34px;
+      }
     }
-    .logoIcon{
-        margin-left: 60px;
-    }
-
-    ul{
-        width: 48px;
-        height: 24px;
-        font-weight: 400;
-        font-size: 16px;
-    }
-    #navbarNav{
-        margin-right: 310px;
-    }
+  }
 }
 
-section{
-    padding: 60px;
+.btnJoin {
+  border: 1px solid #2b2b2b;
+  background-color: #285e67;
+  border-radius: 67px;
+  width: 251px;
+  height: 56px;
+  padding: 16px;
+  gap: 16px;
 }
 
- .custom-img {
-            width: 626px; 
-            height: 391px; 
-            border-radius: 16px; 
-            
-        }
-        .image-container {
-            padding: 10px; 
-        }
-
-h2{
-   color: #2b2b2b;
-   font-family: "Poppins", sans-serif;
-    
-}
-
-.section2{
-     margin-top: 100px;
-    
-    article{
-        text-align: center;
-        
-        
-
-        .title-boton{
-            text-align: center;
-
-            h2{
-                width: 1300px;
-                height: 82px;
-                font-weight: 600;
-                font-size: 65.34px;
-            }
-    
-        }
-    }
-}
-
- .btnJoin{
-        border: 1px solid #2b2b2b;
-        background-color: #285e67;
-        border-radius: 67px;
-        width: 251px;
-        height: 56px;
-        padding: 16px;
-        gap: 16px;
-        
-    }
-
-
-.iconHoja{
-    width: 58px;
-    height: 57px;
-    border-radius: 10px;
-    
+.iconHoja {
+  width: 58px;
+  height: 57px;
+  border-radius: 10px;
 }
 
 .section3 {
-    background-color: #f4f4f4;
+  background-color: #f4f4f4;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+
+  .imgSection2 {
+    width: 651px;
+    height: auto;
     border-radius: 16px;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-
-    .imgSection2{
-        width: 651px;
-        height: auto;
-        border-radius: 16px;
-        display: flex; /* Centra el contenido */
-        justify-content: center;
-        align-items: center;
-
-     
-
-    }
-   
+    display: flex; /* Centra el contenido */
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .section4 {
-
-    .custom-img2{
-        width: 623.5px;
-        height: 576.92px;
-        border-radius: 16px;
-    }
+  .custom-img2 {
+    width: 623.5px;
+    height: 576.92px;
+    border-radius: 16px;
+  }
 }
 
-.section5{
-    width: 1300px;
-    height: 541px;
-    padding: 56px 110px 56px 114px;
-    gap: 237px;
+.section5 {
+  width: 1300px;
+  height: 541px;
+  padding: 56px 110px 56px 114px;
+  gap: 237px;
 
-    .cabecera{
-        width: 543px;
-        gap: 16px;
-    }
+  .cabecera {
+    width: 543px;
+    gap: 16px;
+  }
 
-    .custom-img3{
-        width: 350px;
-        height: 347.5px;
-
-    }
-    .block-imagenes{
-        width: 543px;
-        height: 187.54px;
-        gap: 69px;
-        
-    }
-
+  .custom-img3 {
+    width: 350px;
+    height: 347.5px;
+  }
+  .block-imagenes {
+    width: 543px;
+    height: 187.54px;
+    gap: 69px;
+  }
 }
 
+.section6 {
+  position: relative;
 
-.section6{
-     position: relative;
-     
+  imagen-fondo {
+    z-index: 0;
+  }
+  article {
+    text-align: center;
+    gap: 45px;
+    position: absolute; /* Posicionamos el article de forma absoluta */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    top: 40%;
 
-    imagen-fondo{
-        z-index: 0;
-    }
-    article{
-        text-align: center;
-        gap: 45px;
-        position: absolute; /* Posicionamos el article de forma absoluta */
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        z-index: 1;
-        top:40%;
-        
+    .title-boton {
+      text-align: center;
 
-    .title-boton{
-        text-align: center;
-
-        h2{
-            width: 1300px;
-            height: 82px;
-            font-weight: 600;
-            font-size: 65.34px;
-        }
-   
-}
-
-    .btnJoin2{
-        border: 1px solid white;
-        background-color: none;
-        border-radius: 67px;
-        width: 251px;
-        height: 56px;
-        padding: 16px;
-        gap: 16px;
-        font-weight: 400;
-        color: white;
-        font-size: 21.33px;
-        align-items: center;
-        text-align: center;
-        
-        
+      h2 {
+        width: 1300px;
+        height: 82px;
+        font-weight: 600;
+        font-size: 65.34px;
+      }
     }
 
-    .cuatro-iconos{
-        display:flex ;
-        justify-content: space-around;
-        align-items: center;
-        position: absolute;
-        transform: translate(-50%, -50%);
-        z-index: 1;
-        width: 1165px;
-        height: 356px;
-        border: solid 1px #fce2d7;
-        border-radius: 16px;
-        background-color: #fce2d7;
-        gap: 17px;
-        right: 0%;
-        left: 50%;
-        top:160%;
-        
-        
-
-        img{
-            width: 82px;
-            height: 82px;
-        }
+    .btnJoin2 {
+      border: 1px solid white;
+      background-color: none;
+      border-radius: 67px;
+      width: 251px;
+      height: 56px;
+      padding: 16px;
+      gap: 16px;
+      font-weight: 400;
+      color: white;
+      font-size: 21.33px;
+      align-items: center;
+      text-align: center;
     }
-}
 
-/*explicacion de como posicionar encima de la imagen
+    .cuatro-iconos {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+      width: 1165px;
+      height: 356px;
+      border: solid 1px #fce2d7;
+      border-radius: 16px;
+      background-color: #fce2d7;
+      gap: 17px;
+      right: 0%;
+      left: 50%;
+      top: 160%;
+
+      img {
+        width: 82px;
+        height: 82px;
+      }
+    }
+  }
+
+  /*explicacion de como posicionar encima de la imagen
 
 
 position: relative: Indica que el elemento se posicionará en relación a su posición original en el flujo del documento. Esto nos permite ajustar su posición con las propiedades top, bottom, left y right.
@@ -264,17 +232,32 @@ z-index: 0: Asignamos un valor de 0 al z-index de la imagen de fondo. Esto asegu
 
 */
 
-
+}
 
 footer{
-    position: absolute;
-    z-index: 1;
-    
-    border: 1px solid green;
-    
-    
+    width: 1441px;
+    height: 245px;
+    border: 1px solid #285e67;
+    margin-top: 200px ;
+    padding: 78px 139px 78px 139px;
+    gap: 728px;
+    background-color: #285e67;
+
+    .nav-link{
+        color: white;
+    }
 }
 
-
+.iconos{
+    gap: 24px;
 }
 
+ul{
+    list-style: none;
+    i{
+        width: 35px;
+        height: 22px;
+        color: white;
+        font-size: 20px;
+    }
+}
